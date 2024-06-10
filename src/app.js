@@ -79,15 +79,15 @@ app.get('/', (req, res) => {
                         <input type="text" id="name" name="name">
                     </div>
                     <div class="form-group">
-                        <label for="easy">Easy:</label>
+                        <label for="easy">Easy Level Questions Solved:</label>
                         <input type="number" id="easy" name="easy">
                     </div>
                     <div class="form-group">
-                        <label for="medium">Medium:</label>
+                        <label for="medium">Medium Level Questions Solved:</label>
                         <input type="number" id="medium" name="medium">
                     </div>
                     <div class="form-group">
-                        <label for="hard">Hard:</label>
+                        <label for="hard">Hard Level Questions Solved:</label>
                         <input type="number" id="hard" name="hard">
                     </div>
                     <div class="form-group">

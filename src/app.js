@@ -72,9 +72,10 @@ app.get('/', (req, res) => {
         <body>
             <div class="container">
                 <h2>Help Us to Train Our Model...</h2>
+                <p>Please provide the correct answers to ensure the accuracy of our model, each response is very important to us.</p>
                 <form action="/submit" method="post">
                     <div class="form-group">
-                        <label for="name">Name:</label>
+                        <label for="name">Name:(you can skip this field or use fancy names also)</label>
                         <input type="text" id="name" name="name">
                     </div>
                     <div class="form-group">
@@ -90,13 +91,13 @@ app.get('/', (req, res) => {
                         <input type="number" id="hard" name="hard">
                     </div>
                     <div class="form-group">
-                        <label for="leetcodeRank">LeetCode Rank:</label>
+                        <label for="leetcodeRank">Current LeetCode Rank:</label>
                         <input type="number" id="leetcodeRank" name="leetrank">
                     </div>
                     <button type="submit">Submit</button>
                 </form>
                 <div class="footer">
-                    <p>If you have any questions or concerns, please <a href="mailto:sanjogbhatia8@gmail.com">email us</a>.</p>
+                    <p>If you have any questions or concerns, please <a href="mailto:mlprojectsdev0@gmail.com">email us</a>.</p>
                 </div>
             </div>
         </body>
